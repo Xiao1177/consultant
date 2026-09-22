@@ -1,0 +1,68 @@
+# ========================
+# Maven
+# ========================
+/target/
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Spring Boot config（敏感）
+# ========================
+application.yml
+application-*.yml
+
+# ========================
+# IDE
+
+# ========================
+.idea/
+
+# ========================
+# temp
+# ========================
+/tmp/
+/out/
+
+# ========================
+# package
+# ========================
+*.jar
+*.war
+.env.local
+
+
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!application.example.yml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+.vscode/
+.hbuilderx/
+project.private.config.json
+project.config.json
+# Dependencies and generated output
+node_modules/
+dist/
+unpackage/
+coverage/
+.vite/
+*.class
+*.zip
+*.7z
+*.bak
+.DS_Store
+Thumbs.db
+src/main/resources/pgvectorheatmap/
+# Database dump includes private user and health records
+src/main/resources/sql/diet.sql
